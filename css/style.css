@@ -8,18 +8,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica";
-  background-color: #000;
+  background-color: #353658;
 }
 header {
-  background: url(../img/background.jpg) no-repeat 50% 50%;
-  background-color: #000;
+  /* background: url(../img/background.jpg) no-repeat 50% 50%; */
+  background-color: #353658;
   height: 950px;
   overflow: auto;
 }
 .key {
-  border: 1px solid red;
+  border: 1px solid 	#7b32d9;
   border-radius: 8px;
-  color: red;
+  color: 	#7b32d9;
   display: inline-block;
   font-size: 18px;
   height: 52px;
@@ -27,12 +27,12 @@ header {
   vertical-align: top;
   width: 52px;
   margin: 5px 1px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid 	#7b32d9;
 }
 .keyFunc {
-  border: 1px solid red;
+  border: 1px solid 	#7b32d9;
   border-radius: 8px;
-  color: red;
+  color: 	#7b32d9;
   display: inline-block;
   font-size: 14px;
   height: 35px;
@@ -40,7 +40,7 @@ header {
   vertical-align: top;
   width: 47px;
   margin: 5px 1px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid 	#7b32d9;
 }
 .keyboard-body {
   height: 650px;
@@ -70,7 +70,7 @@ header {
   z-index: 1;
 }
 .keyboard-bg-fade {
-  background-color: #000;
+  background-color: #24124b;
   height: 100%;
   opacity: 0.5;
   position: absolute;
@@ -84,19 +84,19 @@ header {
   z-index: 3;
 }
 .keyboard-header {
-  background-color: #000;
-  color: #008b8b;
+  background-color: #24124b;
+  color: #f4649f	;
   height: 50px;
   overflow: hidden;
   padding-top: 5px;
   width: 100%;
-  border: 1px solid #8b0000;
+  border: 1px solid #b593cc;
   border-radius: 8px;
 }
 .keyOutput {
-  border: 1px solid #008b8b;
+  border: 1px solid #f4649f	;
   border-radius: 8px;
-  color: #008b8b;
+  color: #f4649f	;
   display: inline-block;
   font-size: 16px;
   height: 30px;
@@ -303,17 +303,17 @@ h1 {
 }
 .key.press,
 .keyFunc.press {
-  background-color: #00ced1;
-  border-color: #00e1ef;
-  color: #000;
+  background-color: #b593cc;
+  border-color: #b593cc;
+  color: #24124b;
   top: 0.2em;
   box-shadow: 0 0 0 0.05em #000;
 }
 .key.active,
 .keyFunc.active {
-  background-color: #000;
-  border-color: #00e1ef;
-  color: #01c7d4;
+  background-color: 	#24124b;
+  border-color: #f4649f;
+  color: #f4649f;
   top: 0.2em;
   box-shadow: 0 0 0 0.05em #000;
 }
@@ -322,9 +322,9 @@ h1 {
   background-position: -24px -13px;
 }
 .sliding_text_info {
-  background-color: rgba(2, 12, 20, 0.8);
+  background-color: rgba(36, 18, 75, 0.8);
   bottom: 0;
-  color: rgba(0, 139, 139, 0.658);
+  color: rgba(244, 100, 159, 0.658);
   font-size: 14px;
   font-weight: 700;
   left: 0;
